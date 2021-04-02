@@ -22,5 +22,5 @@ app.post("/posts", (req, res) => {
 
   res.status(201).send(posts[id]);
 });
-
+const a = 0;
 app.listen(4000, () => console.log("Listen on 4000"));
